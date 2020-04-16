@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="bg">
+    <div class="box" id="contentBox">
+        <div class="content" id="calltoaction"><span class="start">Click to view</span> <br><br>
+            <p>Animation by Kaya Skov</p>
+            <p class="credits">Credits to: <a href="https://github.com/superstephan1" target="_blank">Stephan Kop</a> for creating the project format.</p>
+        </div>
+    </div>
+    <div id="container">
+
+
+
+        <div id="animation">
+            <video id="transition" class="transition" style="opacity: 0" muted>
+        <source src="./img/transition1.mp4" type="video/mp4" />
+      </video>
+            <video id="animateGif" class="fade-in" loop>
+        <source src="./img/intro.mp4" type="video/mp4" />
+      </video>
+            <video id="video" class="hidden" loop>
+        <source src="./img/anim1.webm" type="video/mp4" />
+      </video>
+        </div>
+
+        <div id="buttons">
+            <a id="button1">
+        <img id="preview1" class="testpreview" src="./img/button1preview.png">
+        <img class="testButton" src="./img/button1.gif">
+      </a>
+            <a id="button2">
+        <img id="preview2" class="testpreview" src="./img/button2preview.png">
+        <img class="testButton" src="./img/button2.gif">
+      </a>
+            <a id="button3">
+        <img id="preview3" class="testpreview" src="./img/button3preview.png">
+        <img class="testButton" src="./img/button3.gif">
+      </a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
